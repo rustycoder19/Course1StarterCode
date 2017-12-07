@@ -21,6 +21,8 @@ public class LocationTester {
 		//latitude = -12.04;
 		System.out.println(ucsd.distance(lima));
 		System.out.println("Miami Airport Coordinates: " + miamiAirport.latitude + ", " + miamiAirport.longitude);
+		System.out.println("Atlanta Airport Coordinates: " + atlantaAirport.latitude + ", " + atlantaAirport.longitude);
+
 	}
 
 }
