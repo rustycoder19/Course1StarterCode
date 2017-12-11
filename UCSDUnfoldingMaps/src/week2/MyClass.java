@@ -36,5 +36,6 @@ public class MyClass
         incrementB(c2.b);
         System.out.println(c2.a + ", "+ c2.b);
         //adding this comment to test whether git will allow me to switch to master with uncommitted changes on this branch week2-programs
+        //adding this comment to test the git pull from origin/master to local/master
     }
 }
