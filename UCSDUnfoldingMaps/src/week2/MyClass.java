@@ -28,13 +28,14 @@ public class MyClass
         second = second + 1.0;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         MyClass c1 = new MyClass(10, 20.5);
         MyClass c2 = new MyClass(10, 31.5);
         // different code below
         incrementA(c2.a);
         incrementB(c2.b);
         System.out.println(c2.a + ", "+ c2.b);
+
+        //adding this comment to test whether git will allow me to switch to master with uncommitted changes on this branch week2-programs
     }
 }
